@@ -55,6 +55,7 @@ body > img {
 }
 
 .card-body h2 {
+  color: #1f2e55;
   text-align: center;
   font-weight: 900;
   font-size: 28px;
@@ -70,18 +71,22 @@ body > img {
   margin-left: 20px;
 }
 
+.card-body .pricing .plan-type h6 {
+  margin-bottom: 10px;
+}
+
 .card-body .pricing span {
   text-align: end;
 }
 
 .card-body .pricing span a {
   text-decoration: none;
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #382ae1;
 }
 
 .card-body .pricing span a:hover {
   text-decoration: none;
-  border-bottom: 0px solid blue;
+  border-bottom: 0px solid #382ae1;
   color: #766cf1;
 }
 
@@ -115,6 +120,7 @@ body > img {
   padding: 15px;
   font-size: 15px;
   margin-bottom: 10px;
+  font-weight: 900;
 }
 
 .card-footer .btn-primary:hover {
