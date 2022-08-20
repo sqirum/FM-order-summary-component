@@ -1,0 +1,137 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+body > img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  max-width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.card-header img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-body {
+  padding: 0 45px;
+  margin-bottom: 30px;
+}
+
+.card-body > div {
+  padding: 25px;
+  background: #f7f9ff;
+  border-radius: 11px;
+}
+
+.card-body div .pricing {
+  display: flex;
+  align-items: center;
+}
+
+.card-body .pricing > * {
+  width: 33%;
+}
+
+.card-body .pricing > img {
+  max-width: 48px;
+}
+
+.card-body h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 28px;
+}
+.card-body p {
+  text-align: center;
+  color: #717fa6;
+}
+
+.card-body .pricing .plan-type h6,
+.card-body .pricing .plan-type p {
+  margin: 0;
+  margin-left: 20px;
+}
+
+.card-body .pricing span {
+  text-align: end;
+}
+
+.card-body .pricing span a {
+  text-decoration: none;
+  border-bottom: 1px solid blue;
+}
+
+.card-body .pricing span a:hover {
+  text-decoration: none;
+  border-bottom: 0px solid blue;
+  color: #766cf1;
+}
+
+.card-body .pricing .plan-type {
+  flex-grow: 1;
+}
+
+.card-body .pricing h6 {
+  color: #1f2e55;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.card-body .pricing p {
+  color: #717fa6;
+  text-align: left;
+}
+
+.card-footer {
+  padding: 0 25px;
+}
+
+.card-footer .btn-primary {
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.card-footer .btn-primary:hover {
+  background: #766cf1;
+}
+
+.card-footer .btn-secondary {
+  background: transparent;
+  color: #717fa6;
+  font-weight: 900;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.card-footer .btn-secondary:hover {
+  color: #1f2e55;
+}
