@@ -72,7 +72,7 @@ body > img {
 }
 
 .card-body .pricing .plan-type h6 {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .card-body .pricing span {
@@ -82,6 +82,7 @@ body > img {
 .card-body .pricing span a {
   text-decoration: none;
   border-bottom: 1px solid #382ae1;
+  color: #382ae1;
 }
 
 .card-body .pricing span a:hover {
